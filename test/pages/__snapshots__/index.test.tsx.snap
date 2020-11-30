@@ -21,11 +21,15 @@ exports[`Home page matches snapshot 1`] = `
       </a>
     </nav>
   </header>
-  <main>
+  <main
+    style="background-color: peachpuff;"
+  >
     <h2>
       Home
     </h2>
-    <button>
+    <button
+      class="btn-blue"
+    >
       Button
     </button>
   </main>
@@ -33,7 +37,7 @@ exports[`Home page matches snapshot 1`] = `
     <small
       lang="en"
     >
-      @ 20xx example.com
+      © 20xx example
     </small>
   </footer>
 </DocumentFragment>

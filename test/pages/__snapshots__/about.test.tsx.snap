@@ -21,7 +21,9 @@ exports[`About page matches snapshot 1`] = `
       </a>
     </nav>
   </header>
-  <main>
+  <main
+    style="background-color: peachpuff;"
+  >
     <h2>
       About
     </h2>
@@ -30,7 +32,7 @@ exports[`About page matches snapshot 1`] = `
     <small
       lang="en"
     >
-      @ 20xx example.com
+      © 20xx example
     </small>
   </footer>
 </DocumentFragment>
