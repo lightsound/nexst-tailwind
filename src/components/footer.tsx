@@ -1,7 +1,7 @@
 export const Footer = () => {
   return (
     <footer>
-      <small>© 20xx example</small>
+      <small>&copy; 20xx example</small>
     </footer>
   );
 };
