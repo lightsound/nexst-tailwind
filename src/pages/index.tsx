@@ -3,7 +3,6 @@ import { Layout } from "src/components/layout";
 const Home = () => {
   return (
     <Layout>
-      <h2>Home</h2>
       <button
         className="btn-blue"
         onClick={() => {
