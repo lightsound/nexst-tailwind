@@ -24,9 +24,6 @@ exports[`Home page matches snapshot 1`] = `
   <main
     style="background-color: peachpuff;"
   >
-    <h2>
-      Home
-    </h2>
     <button
       class="btn-blue"
     >
@@ -34,9 +31,7 @@ exports[`Home page matches snapshot 1`] = `
     </button>
   </main>
   <footer>
-    <small
-      lang="en"
-    >
+    <small>
       © 20xx example
     </small>
   </footer>

@@ -24,14 +24,10 @@ exports[`About page matches snapshot 1`] = `
   <main
     style="background-color: peachpuff;"
   >
-    <h2>
-      About
-    </h2>
+    About
   </main>
   <footer>
-    <small
-      lang="en"
-    >
+    <small>
       © 20xx example
     </small>
   </footer>
