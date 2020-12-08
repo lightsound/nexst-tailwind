@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@testing-library/react": "11.2.2",
-    "@types/jest": "26.0.15",
+    "@types/jest": "26.0.17",
     "@types/node": "14.14.10",
     "@types/react": "17.0.0",
     "@types/testing-library__react": "10.2.0",
