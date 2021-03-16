@@ -660,7 +660,7 @@
     remark "^13.0.0"
     unist-util-find-all-after "^3.0.2"
 
-"@tailwindcss/jit@^0.1.1":
+"@tailwindcss/jit@0.1.1":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@tailwindcss/jit/-/jit-0.1.1.tgz#d3783b2941fda6d4521c5ce1b8b547e9fc9e130f"
   integrity sha512-KXpWiRksgs+7voUeFHRDeRwo+EzY9PW/WLeFt8NHl2+hP551PoDC56QjXAjcgDgRniWQg6WoOwFsm6u2ajVWow==
@@ -4726,7 +4726,7 @@ normalize-selector@^0.2.0:
   resolved "https://registry.yarnpkg.com/normalize-selector/-/normalize-selector-0.2.0.tgz#d0b145eb691189c63a78d201dc4fdb1293ef0c03"
   integrity sha1-0LFF62kRicY6eNIB3E/bEpPvDAM=
 
-npm-run-all@^4.1.5:
+npm-run-all@4.1.5:
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/npm-run-all/-/npm-run-all-4.1.5.tgz#04476202a15ee0e2e214080861bff12a51d98fba"
   integrity sha512-Oo82gJDAVcaMdi3nuoKFavkIHBRVqQ1qvMb+9LHk/cF4P6B2m8aP04hGf7oL6wZ9BuGwX1onlLhpuoofSyoQDQ==
