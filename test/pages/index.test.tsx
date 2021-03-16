@@ -10,7 +10,7 @@ describe("Home page", () => {
   it("clicking button triggers alert", () => {
     const { getByText } = render(<Home />, {});
     window.alert = jest.fn();
-    fireEvent.click(getByText("Button"));
+    fireEvent.click(getByText("Click me!"));
     expect(window.alert).toHaveBeenCalledWith("Hello, World!");
   });
 });
