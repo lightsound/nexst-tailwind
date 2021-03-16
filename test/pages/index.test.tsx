@@ -1,5 +1,5 @@
+import { fireEvent, render } from "@testing-library/react";
 import Home from "src/pages";
-import { fireEvent, render } from "test/test-utils";
 
 describe("Home page", () => {
   it("matches snapshot", () => {
