@@ -3,7 +3,7 @@
 exports[`Home page matches snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="min-h-screen grid grid-rows-[auto,1fr,auto]"
+    class="min-h-screen flex flex-col"
   >
     <header>
       <h1>
@@ -11,23 +11,25 @@ exports[`Home page matches snapshot 1`] = `
       </h1>
       <nav>
         <a
+          class="inline-block p-4"
           href="/"
-          style="display: inline-block; padding: 12px;"
         >
           Home
         </a>
         <a
+          class="inline-block p-4"
           href="/about"
-          style="display: inline-block; padding: 12px;"
         >
           About
         </a>
       </nav>
     </header>
     <main
-      class="bg-red-300"
+      class="flex-1 bg-red-300"
     >
-      <button>
+      <button
+        class="p-2"
+      >
         Click me!
       </button>
     </main>
