@@ -2,38 +2,40 @@
 
 exports[`Home page matches snapshot 1`] = `
 <DocumentFragment>
-  <header>
-    <h1>
-      Title
-    </h1>
-    <nav>
-      <a
-        href="/"
-        style="display: inline-block; padding: 12px;"
-      >
-        Home
-      </a>
-      <a
-        href="/about"
-        style="display: inline-block; padding: 12px;"
-      >
-        About
-      </a>
-    </nav>
-  </header>
-  <main
-    style="background-color: peachpuff;"
+  <div
+    class="min-h-screen grid grid-rows-[auto,1fr,auto]"
   >
-    <button
-      class="btn-blue"
+    <header>
+      <h1>
+        Title
+      </h1>
+      <nav>
+        <a
+          href="/"
+          style="display: inline-block; padding: 12px;"
+        >
+          Home
+        </a>
+        <a
+          href="/about"
+          style="display: inline-block; padding: 12px;"
+        >
+          About
+        </a>
+      </nav>
+    </header>
+    <main
+      class="bg-red-300"
     >
-      Button
-    </button>
-  </main>
-  <footer>
-    <small>
-      © 20xx example
-    </small>
-  </footer>
+      <button>
+        Click me!
+      </button>
+    </main>
+    <footer>
+      <small>
+        © 20xx example
+      </small>
+    </footer>
+  </div>
 </DocumentFragment>
 `;
