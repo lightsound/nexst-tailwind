@@ -35,7 +35,7 @@
     "printWidth": 120
   },
   "dependencies": {
-    "next": "10.0.8",
+    "next": "10.0.9",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },
