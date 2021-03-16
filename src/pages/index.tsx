@@ -1,19 +1,17 @@
 import { Layout } from "src/components/layout";
 
 const Home = () => {
+  const handleClick = () => {
+    window.alert("Hello, World!");
+  };
+
   return (
     <Layout>
-      <button
-        className="btn-blue"
-        onClick={() => {
-          window.alert("Hello, World!");
-        }}
-      >
+      <button className="btn-blue" onClick={handleClick}>
         Button
       </button>
     </Layout>
   );
 };
 
-// eslint-disable-next-line import/no-default-export
 export default Home;
