@@ -660,10 +660,10 @@
     remark "^13.0.0"
     unist-util-find-all-after "^3.0.2"
 
-"@tailwindcss/jit@0.1.13":
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/@tailwindcss/jit/-/jit-0.1.13.tgz#247e1d88908173d59b8868b0cf658c94e5aaac21"
-  integrity sha512-UJ3dR4IrY5v7KK7u7qPa/ffoOcLrW183WLsRXFORZF3TxnwZAVFChZ0lLFE0Vd1DCgH2Lp5DyDFQrxglfPq09Q==
+"@tailwindcss/jit@0.1.14":
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/@tailwindcss/jit/-/jit-0.1.14.tgz#dfaf9b57853e9baf80a90412e50368e3bc2f5c9f"
+  integrity sha512-783s123VePTHTR1G4hi7zuAk/fzf0CHaAE/Ls8VryEy7TVg03UftJNa9j5sN9S4+5stadhNUIqUQ+smWM50E1w==
   dependencies:
     chokidar "^3.5.1"
     dlv "^1.1.3"
