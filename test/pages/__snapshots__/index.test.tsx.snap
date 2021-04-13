@@ -6,9 +6,6 @@ exports[`Home page matches snapshot 1`] = `
     class="grid grid-rows-[auto,1fr,auto] min-h-screen"
   >
     <header>
-      <h1>
-        Title
-      </h1>
       <nav>
         <a
           class="p-4 inline-block"

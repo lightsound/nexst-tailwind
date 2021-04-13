@@ -9,7 +9,6 @@ const items = [
 export const Header: VFC = () => {
   return (
     <header>
-      <h1>Title</h1>
       <nav>
         {items.map(({ href, label }) => {
           return (
