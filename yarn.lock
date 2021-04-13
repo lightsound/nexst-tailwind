@@ -2977,7 +2977,7 @@ human-signals@^1.1.1:
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
   integrity sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==
 
-husky@^6.0.0:
+husky@6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/husky/-/husky-6.0.0.tgz#810f11869adf51604c32ea577edbc377d7f9319e"
   integrity sha512-SQS2gDTB7tBN486QSoKPKQItZw97BMOd+Kdb6ghfpBc0yXyzrddI0oDV5MkDAbuB4X2mO3/nj60TRMcYxwzZeQ==
@@ -5424,7 +5424,7 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rustywind@^0.8.1:
+rustywind@0.8.1:
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/rustywind/-/rustywind-0.8.1.tgz#1084f7408c962a44bf90ea6dca897e10ccbd2977"
   integrity sha512-oauFGMxPO4sxDMdNfXzLTrBEBbd74PHoIy5T92VWZwFaSCHw4GAunxAy2XzPUOmHTomuEdvXdHaU7dZhYXCvaQ==
