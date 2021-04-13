@@ -17,15 +17,8 @@
     "unit": "jest"
   },
   "simple-git-hooks": {
-    "pre-commit": "npx lint-staged",
-    "post-commit": "yarn fix"
-  },
-  "lint-staged": {
-    "*.{ts,tsx}": [
-      "yarn lint:eslint",
-      "yarn lint:prettier",
-      "yarn unit --bail --findRelatedTests"
-    ]
+    "post-commit": "yarn fix",
+    "pre-push": "yarn test"
   },
   "babel": {
     "presets": [
