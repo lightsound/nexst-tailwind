@@ -11,13 +11,13 @@ exports[`About page matches snapshot 1`] = `
       </h1>
       <nav>
         <a
-          class="inline-block p-4"
+          class="p-4 inline-block"
           href="/"
         >
           Home
         </a>
         <a
-          class="inline-block p-4"
+          class="p-4 inline-block"
           href="/about"
         >
           About

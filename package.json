@@ -22,7 +22,9 @@
   },
   "lint-staged": {
     "*.{ts,tsx}": [
-      "yarn test"
+      "yarn lint:eslint",
+      "yarn lint:prettier",
+      "yarn unit --bail --findRelatedTests"
     ]
   },
   "babel": {
