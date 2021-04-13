@@ -14,8 +14,7 @@
     "fix:prettier": "yarn lint:prettier --write",
     "fix:tailwind": "rustywind --write src",
     "test": "run-p -l -c --aggregate-output lint:* unit",
-    "unit": "jest",
-    "lint-staged": "lint-staged"
+    "unit": "jest"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged",
