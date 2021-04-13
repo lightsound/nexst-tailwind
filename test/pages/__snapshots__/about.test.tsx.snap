@@ -3,7 +3,7 @@
 exports[`About page matches snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="min-h-screen flex flex-col"
+    class="grid grid-rows-[auto,1fr,auto] min-h-screen"
   >
     <header>
       <h1>
@@ -25,7 +25,7 @@ exports[`About page matches snapshot 1`] = `
       </nav>
     </header>
     <main
-      class="flex-1 bg-red-300"
+      class="bg-red-300"
     >
       About
     </main>
