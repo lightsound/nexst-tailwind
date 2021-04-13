@@ -1,6 +1,6 @@
 module.exports = {
   mode: "jit",
-  purge: ["./src/**/*.{js,ts,jsx,tsx}"],
+  purge: ["./src/**/*.{ts,tsx}"],
   darkMode: false, // 'media' or 'class'
   theme: { extend: {} },
   variants: { extend: {} },
