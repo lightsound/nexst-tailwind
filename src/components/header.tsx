@@ -14,7 +14,7 @@ export const Header: VFC = () => {
         {items.map(({ href, label }) => {
           return (
             <Link key={href} href={href}>
-              <a className="p-4 inline-block">{label}</a>
+              <a className="inline-block p-4">{label}</a>
             </Link>
           );
         })}
