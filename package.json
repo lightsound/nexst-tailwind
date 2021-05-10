@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "run-p -l -c --aggregate-output lint:*",
-    "lint:eslint": "eslint .",
+    "lint:eslint": "eslint --cache .",
     "lint:prettier": "prettier --check .",
     "fix": "run-s -l -c fix:tailwind fix:eslint fix:prettier",
     "fix:eslint": "yarn lint:eslint --fix",
