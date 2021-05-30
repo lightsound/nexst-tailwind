@@ -2221,7 +2221,7 @@ eslint-plugin-simple-import-sort@7.0.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-7.0.0.tgz#a1dad262f46d2184a90095a60c66fef74727f0f8"
   integrity sha512-U3vEDB5zhYPNfxT5TYR7u01dboFZp+HNpnGhkDB2g/2E4wZ/g1Q9Ton8UwCLfRV9yAKyYqDh62oHOamvkFxsvw==
 
-eslint-plugin-tailwindcss@^1.8.5:
+eslint-plugin-tailwindcss@1.8.5:
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/eslint-plugin-tailwindcss/-/eslint-plugin-tailwindcss-1.8.5.tgz#adffd738ac5edce1b660b597893224d2934d5576"
   integrity sha512-LzdW1Liz5JkbHUhFOXnSLEWakxQrMS6X+iKm3PaR9X0Qumb267WfpSABYSSaYq0fhxW0gbNMB1PqMNKRGflejA==
