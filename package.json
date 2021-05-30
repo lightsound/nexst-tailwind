@@ -9,10 +9,9 @@
     "lint": "run-p -l -c --aggregate-output lint:*",
     "lint:eslint": "eslint --cache .",
     "lint:prettier": "prettier --check .",
-    "fix": "run-s -l -c fix:tailwind fix:eslint fix:prettier",
+    "fix": "run-s -l -c fix:eslint fix:prettier",
     "fix:eslint": "yarn lint:eslint --fix",
     "fix:prettier": "yarn lint:prettier --write",
-    "fix:tailwind": "rustywind --write src",
     "test": "run-p -l -c --aggregate-output lint:* unit",
     "unit": "jest",
     "prepare": "husky install"
