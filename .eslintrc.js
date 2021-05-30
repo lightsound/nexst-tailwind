@@ -4,7 +4,7 @@ module.exports = {
   parserOptions: { project: "./tsconfig.json", ecmaFeatures: { jsx: true } },
   settings: { react: { version: "detect" } },
   env: { es2021: true, browser: true, jest: true, node: true },
-  plugins: ["@typescript-eslint", "import", "simple-import-sort"],
+  plugins: ["@typescript-eslint", "import", "simple-import-sort", "tailwindcss"],
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
@@ -41,6 +41,9 @@ module.exports = {
     "import/no-default-export": "error",
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
+    "tailwindcss/classnames-order": "warn",
+    "tailwindcss/no-custom-classname": "warn",
+    "tailwindcss/no-contradicting-classname": "error",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",

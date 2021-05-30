@@ -2221,6 +2221,13 @@ eslint-plugin-simple-import-sort@7.0.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-7.0.0.tgz#a1dad262f46d2184a90095a60c66fef74727f0f8"
   integrity sha512-U3vEDB5zhYPNfxT5TYR7u01dboFZp+HNpnGhkDB2g/2E4wZ/g1Q9Ton8UwCLfRV9yAKyYqDh62oHOamvkFxsvw==
 
+eslint-plugin-tailwindcss@^1.8.5:
+  version "1.8.5"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-tailwindcss/-/eslint-plugin-tailwindcss-1.8.5.tgz#adffd738ac5edce1b660b597893224d2934d5576"
+  integrity sha512-LzdW1Liz5JkbHUhFOXnSLEWakxQrMS6X+iKm3PaR9X0Qumb267WfpSABYSSaYq0fhxW0gbNMB1PqMNKRGflejA==
+  dependencies:
+    tailwindcss "^2.1.2"
+
 eslint-scope@^5.0.0, eslint-scope@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-5.1.1.tgz#e786e59a66cb92b3f6c1fb0d508aab174848f48c"
@@ -4969,11 +4976,6 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rustywind@0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/rustywind/-/rustywind-0.8.1.tgz#1084f7408c962a44bf90ea6dca897e10ccbd2977"
-  integrity sha512-oauFGMxPO4sxDMdNfXzLTrBEBbd74PHoIy5T92VWZwFaSCHw4GAunxAy2XzPUOmHTomuEdvXdHaU7dZhYXCvaQ==
-
 rxjs@^6.6.7:
   version "6.6.7"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.7.tgz#90ac018acabf491bf65044235d5863c4dab804c9"
@@ -5444,7 +5446,7 @@ table@^6.0.9:
     string-width "^4.2.0"
     strip-ansi "^6.0.0"
 
-tailwindcss@2.1.2:
+tailwindcss@2.1.2, tailwindcss@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.1.2.tgz#29402bf73a445faedd03df6d3b177e7b52b7c4a1"
   integrity sha512-T5t+wwd+/hsOyRw2HJuFuv0LTUm3MUdHm2DJ94GPVgzqwPPFa9XxX0KlwLWupUuiOUj6uiKURCzYPHFcuPch/w==
