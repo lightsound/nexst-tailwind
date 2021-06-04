@@ -2138,10 +2138,10 @@ eslint-plugin-simple-import-sort@7.0.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-7.0.0.tgz#a1dad262f46d2184a90095a60c66fef74727f0f8"
   integrity sha512-U3vEDB5zhYPNfxT5TYR7u01dboFZp+HNpnGhkDB2g/2E4wZ/g1Q9Ton8UwCLfRV9yAKyYqDh62oHOamvkFxsvw==
 
-eslint-plugin-tailwindcss@1.9.1:
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-tailwindcss/-/eslint-plugin-tailwindcss-1.9.1.tgz#ff712fac8b52e4c685a4015f2088d3863d22d24b"
-  integrity sha512-3WhFcxD8ioytP/lGa5EOhbzcQlrk+rBF4wcffsVuTTEUrhuiOye8FUp04bxZ6FMC+eRfxGFkRM8vtWnmm+/f/A==
+eslint-plugin-tailwindcss@1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-tailwindcss/-/eslint-plugin-tailwindcss-1.10.0.tgz#298cba3ebff7726d861e1ed5ffd9991982a65ddf"
+  integrity sha512-jrsopMqOCsRnRsZyqweOFDyidJEne4gh8WOA1F3Jb3UZ9Ps6J8ygLNu4ddY6kKlNsW1SRbE1YshHZYrRH7cbOA==
   dependencies:
     tailwindcss "^2.1.2"
 
