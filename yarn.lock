@@ -2143,10 +2143,10 @@ eslint-plugin-simple-import-sort@7.0.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-7.0.0.tgz#a1dad262f46d2184a90095a60c66fef74727f0f8"
   integrity sha512-U3vEDB5zhYPNfxT5TYR7u01dboFZp+HNpnGhkDB2g/2E4wZ/g1Q9Ton8UwCLfRV9yAKyYqDh62oHOamvkFxsvw==
 
-eslint-plugin-tailwindcss@1.12.0:
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-tailwindcss/-/eslint-plugin-tailwindcss-1.12.0.tgz#80624027704e21b8e3fb6c76d79f70cf294d3bb4"
-  integrity sha512-kyNjopwWe4lnBhRrbvHJOZsI9Mo/hbgyrXtHBE58wJXb/IfahSLEc/A/7Cfelh37AcjO7L7WVhrfh2NyFPKqUQ==
+eslint-plugin-tailwindcss@1.13.0:
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-tailwindcss/-/eslint-plugin-tailwindcss-1.13.0.tgz#4b1d00048da0c5fa4570eab5bd26e4d4de14621f"
+  integrity sha512-bjnU2jiEhY9Gm5A9/6DN5miwFRfuxdgPt7OGBQLm22OMModb3y/sokz7RpoSM1B00rDstnEvRWs41s5x8PvT2Q==
   dependencies:
     fast-glob "^3.2.5"
     postcss "^8.3.0"
