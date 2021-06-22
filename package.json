@@ -25,25 +25,24 @@
     "printWidth": 120
   },
   "dependencies": {
-    "next": "10.2.3",
+    "next": "11.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
     "@testing-library/react": "11.2.7",
     "@types/jest": "26.0.23",
-    "@types/node": "15.6.1",
+    "@types/node": "15.12.4",
     "@types/react": "17.0.11",
     "@typescript-eslint/eslint-plugin": "4.28.0",
     "@typescript-eslint/parser": "4.28.0",
     "autoprefixer": "10.2.6",
     "babel-jest": "27.0.5",
     "eslint": "7.29.0",
+    "eslint-config-next": "^11.0.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-import": "2.23.4",
     "eslint-plugin-jsx-a11y": "6.4.1",
-    "eslint-plugin-react": "7.24.0",
-    "eslint-plugin-react-hooks": "4.2.0",
     "eslint-plugin-simple-import-sort": "7.0.0",
     "eslint-plugin-tailwindcss": "1.13.4",
     "husky": "6.0.0",
