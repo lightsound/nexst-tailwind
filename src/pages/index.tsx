@@ -1,7 +1,7 @@
-import type { VFC } from "react";
+import type { NextPage } from "next";
 import { Layout } from "src/components/layout";
 
-const Home: VFC = () => {
+const Home: NextPage = () => {
   const handleClick = () => {
     window.alert("Hello, World!");
   };

@@ -1,7 +1,7 @@
-import type { VFC } from "react";
+import type { NextPage } from "next";
 import { Layout } from "src/components/layout";
 
-const About: VFC = () => {
+const About: NextPage = () => {
   return <Layout>About</Layout>;
 };
 
