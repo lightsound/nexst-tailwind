@@ -21,6 +21,12 @@
       "next/babel"
     ]
   },
+  "postcss": {
+    "plugins": {
+      "tailwindcss": {},
+      "autoprefixer": {}
+    }
+  },
   "prettier": {
     "printWidth": 120
   },
