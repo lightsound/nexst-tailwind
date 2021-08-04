@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { Layout } from "src/components/layout";
+import { Layout } from "src/component/Layout";
 
 const Home: NextPage = () => {
   const handleClick = () => {

@@ -1,6 +1,6 @@
 import type { ReactNode, VFC } from "react";
-import { Footer } from "src/components/footer";
-import { Header } from "src/components/header";
+import { Footer } from "src/component/Footer";
+import { Header } from "src/component/Header";
 
 export const Layout: VFC<{ children: ReactNode }> = (props) => {
   return (
