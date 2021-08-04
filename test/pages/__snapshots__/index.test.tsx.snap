@@ -1,43 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Home page matches snapshot 1`] = `
+exports[`Index page matches snapshot 1`] = `
 <DocumentFragment>
-  <div
-    class="grid grid-rows-[auto,1fr,auto] min-h-screen"
-  >
-    <header>
-      <h1>
-        Title
-      </h1>
-      <nav>
-        <a
-          class="inline-block p-4"
-          href="/"
-        >
-          Home
-        </a>
-        <a
-          class="inline-block p-4"
-          href="/about"
-        >
-          About
-        </a>
-      </nav>
-    </header>
-    <main
-      class="bg-red-300"
+  <div>
+    <div>
+      Index
+    </div>
+    <button
+      class="p-2"
     >
-      <button
-        class="p-2"
-      >
-        Click me!
-      </button>
-    </main>
-    <footer>
-      <small>
-        © 20xx example
-      </small>
-    </footer>
+      Click me!
+    </button>
   </div>
 </DocumentFragment>
 `;

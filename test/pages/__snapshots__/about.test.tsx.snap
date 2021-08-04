@@ -2,38 +2,8 @@
 
 exports[`About page matches snapshot 1`] = `
 <DocumentFragment>
-  <div
-    class="grid grid-rows-[auto,1fr,auto] min-h-screen"
-  >
-    <header>
-      <h1>
-        Title
-      </h1>
-      <nav>
-        <a
-          class="inline-block p-4"
-          href="/"
-        >
-          Home
-        </a>
-        <a
-          class="inline-block p-4"
-          href="/about"
-        >
-          About
-        </a>
-      </nav>
-    </header>
-    <main
-      class="bg-red-300"
-    >
-      About
-    </main>
-    <footer>
-      <small>
-        © 20xx example
-      </small>
-    </footer>
+  <div>
+    About
   </div>
 </DocumentFragment>
 `;

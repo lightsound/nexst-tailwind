@@ -1,11 +1,14 @@
-import Link from "next/link";
 import type { VFC } from "react";
+import { NavLink } from "src/component/Button";
 
 const items = [
-  { href: "/", label: "Home" },
+  { href: "/", label: "Index" },
   { href: "/about", label: "About" },
 ];
 
+/**
+ * @package
+ */
 export const Header: VFC = () => {
   return (
     <header>
@@ -13,9 +16,9 @@ export const Header: VFC = () => {
       <nav>
         {items.map(({ href, label }) => {
           return (
-            <Link key={href} href={href}>
+            <NavLink key={href} href={href} activeClassName="text-red-500">
               <a className="inline-block p-4">{label}</a>
-            </Link>
+            </NavLink>
           );
         })}
       </nav>
