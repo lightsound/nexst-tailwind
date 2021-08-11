@@ -1,5 +1,5 @@
 import type { CustomNextPage } from "next";
-import { FluidLayout } from "src/pages/_Layout";
+import { FluidLayout } from "src/layout";
 
 const Index: CustomNextPage = () => {
   const handleClick = () => {
