@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 import { render } from "@testing-library/react";
-import About from "src/pages/about.page";
+import About from "src/pages/about/index.page";
 
 describe("About page", () => {
   it("matches snapshot", () => {

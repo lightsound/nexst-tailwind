@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 import { fireEvent, render } from "@testing-library/react";
-import Index from "src/pages/index.page";
+import Index from "src/pages/index/index.page";
 
 describe("Index page", () => {
   it("matches snapshot", () => {
