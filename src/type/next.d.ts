@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import type { AppProps } from "next/app";
 import type { ReactNode } from "react";
 
-type PageAttributes = { getLayout?: (page: ReactNode) => ReactNode };
+type PageAttributes = { getLayout?: (page: ReactElement) => ReactNode };
 
 declare module "next" {
   type CustomLayout = PageAttributes["getLayout"];
@@ -10,5 +10,5 @@ declare module "next" {
 }
 
 declare module "next/app" {
-  type CustomAppProps<P = Record<string, unknown>> = AppProps<P> & { Component: PageAttributes };
+  type CustomAppProps<P = Record<string, unknown>> = AppProps<P> & { Component: NextPage & PageAttributes };
 }
