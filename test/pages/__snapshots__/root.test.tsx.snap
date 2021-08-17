@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Index page matches snapshot 1`] = `
+exports[`Root page matches snapshot 1`] = `
 <DocumentFragment>
   <div>
     <div>
-      Index
+      Root
     </div>
     <button
       class="p-2"

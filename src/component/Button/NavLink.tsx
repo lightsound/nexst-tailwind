@@ -15,7 +15,7 @@ export const NavLink = (props: Props) => {
   const router = useRouter();
 
   const className =
-    linkProps.href === (router.pathname === "/index" ? "/" : router.pathname)
+    linkProps.href === router.pathname
       ? `${activeClassName} ${children.props.className ?? ""}`
       : children.props.className ?? "";
 

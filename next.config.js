@@ -3,8 +3,9 @@
  */
 const nextConfig = {
   rewrites: async () => {
-    return [{ source: "/", destination: "/index" }];
+    return [{ source: "/", destination: "/root" }];
   },
+  i18n: { locales: ["ja"], defaultLocale: "ja" },
   future: { strictPostcssConfiguratio: true },
   pageExtensions: ["page.tsx", "page.ts"],
   reactStrictMode: true,

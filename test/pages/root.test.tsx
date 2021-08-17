@@ -2,16 +2,16 @@
  * @jest-environment jsdom
  */
 import { fireEvent, render } from "@testing-library/react";
-import Index from "src/pages/index/index.page";
+import Root from "src/pages/root/index.page";
 
-describe("Index page", () => {
+describe("Root page", () => {
   it("matches snapshot", () => {
-    const { asFragment } = render(<Index />, {});
+    const { asFragment } = render(<Root />, {});
     expect(asFragment()).toMatchSnapshot();
   });
 
   it("clicking button triggers alert", () => {
-    const { getByText } = render(<Index />, {});
+    const { getByText } = render(<Root />, {});
     window.alert = jest.fn();
     fireEvent.click(getByText("Click me!"));
     expect(window.alert).toHaveBeenCalledWith("Hello, World!");

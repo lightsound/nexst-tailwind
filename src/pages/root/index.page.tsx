@@ -1,14 +1,14 @@
 import type { CustomNextPage } from "next";
 import { FluidLayout } from "src/layout";
 
-const Index: CustomNextPage = () => {
+const Root: CustomNextPage = () => {
   const handleClick = () => {
     window.alert("Hello, World!");
   };
 
   return (
     <div>
-      <div>Index</div>
+      <div>Root</div>
       <button className="p-2" onClick={handleClick}>
         Click me!
       </button>
@@ -16,6 +16,6 @@ const Index: CustomNextPage = () => {
   );
 };
 
-Index.getLayout = FluidLayout;
+Root.getLayout = FluidLayout;
 
-export default Index;
+export default Root;
