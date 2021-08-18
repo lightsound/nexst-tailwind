@@ -8,7 +8,7 @@ const Root: CustomNextPage = () => {
 
   return (
     <div>
-      <div>Root</div>
+      <h2>Root</h2>
       <button className="p-2" onClick={handleClick}>
         Click me!
       </button>

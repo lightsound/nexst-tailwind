@@ -1,0 +1,10 @@
+// @see https://docs.cypress.io/guides/tooling/typescript-support#Clashing-types-with-Jest
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "types": ["cypress", "@testing-library/cypress"],
+    "isolatedModules": false
+  },
+  "include": ["../node_modules/cypress", "./**/*.ts"],
+  "exclude": []
+}

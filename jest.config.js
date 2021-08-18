@@ -15,9 +15,8 @@ module.exports = {
     "^.+\\.(jpg|jpeg|png|gif|webp|svg)$": `<rootDir>/__jest__/config/mockFile.js`,
     // Absolute Imports and Module Path Aliases
     "src/(.*)": "<rootDir>/src/$1",
-    "test/(.*)": "<rootDir>/test/$1",
   },
-  testPathIgnorePatterns: ["<rootDir>/node_modules/", "<rootDir>/.next/"],
+  testPathIgnorePatterns: ["<rootDir>/node_modules/", "<rootDir>/.next/", "<rootDir>/cypress/"],
   transform: {
     // Use babel-jest to transpile tests with the next/babel preset: https://jestjs.io/docs/configuration#transform-objectstring-pathtotransformer--pathtotransformer-object
     "^.+\\.(js|jsx|ts|tsx)$": ["babel-jest", { presets: ["next/babel"] }],
