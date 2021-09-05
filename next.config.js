@@ -11,7 +11,6 @@ const nextConfig = {
   future: { strictPostcssConfiguration: true },
   pageExtensions: ["page.tsx", "page.ts"],
   reactStrictMode: true,
-  typescript: { ignoreDevErrors: true },
   poweredByHeader: false,
 };
 
