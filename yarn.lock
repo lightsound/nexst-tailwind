@@ -2590,10 +2590,10 @@ eslint-plugin-cypress@2.11.3:
   dependencies:
     globals "^11.12.0"
 
-eslint-plugin-import-access@1.0.0-beta:
-  version "1.0.0-beta"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-import-access/-/eslint-plugin-import-access-1.0.0-beta.tgz#61768f1b221ad58a4e4cde1dc51a2ad704ffb89e"
-  integrity sha512-bbBwBGXmN3kJMPur6AB7xbFFWVGTRhjOSea+ByUaGaL/v4maFsf3txfACNQAw6JI1Ffb+wAwAbfYS3lb7XdE3Q==
+eslint-plugin-import-access@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-import-access/-/eslint-plugin-import-access-1.0.0.tgz#9db8c87113a0018f0216f3dff7c7789e877d2231"
+  integrity sha512-jGJwzPUWiqXVIpw+qzxBipaLZ0EZ9XN38hStpP0iSD9m+U/W5Qi7ByKoyd8NWtNVBKOUZKPit/cyaW6OtLHg+Q==
   dependencies:
     "@typescript-eslint/experimental-utils" "^4.28.0"
     "@typescript-eslint/typescript-estree" "^4.28.0"
