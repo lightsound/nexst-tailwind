@@ -36,7 +36,7 @@
     "printWidth": 120
   },
   "dependencies": {
-    "@tailwindcss/forms": "0.3.3",
+    "@tailwindcss/forms": "0.3.4",
     "@tailwindcss/line-clamp": "0.2.1",
     "@tailwindcss/typography": "0.4.1",
     "next": "11.1.2",
