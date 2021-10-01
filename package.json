@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@tailwindcss/forms": "0.3.4",
-    "@tailwindcss/line-clamp": "0.2.1",
+    "@tailwindcss/line-clamp": "0.2.2",
     "@tailwindcss/typography": "0.4.1",
     "next": "11.1.2",
     "react": "17.0.2",
