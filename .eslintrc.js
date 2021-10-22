@@ -4,9 +4,7 @@ module.exports = {
   settings: { tailwindcss: { groupByResponsive: true } },
   plugins: ["simple-import-sort", "tailwindcss", "import-access", "cypress"],
   extends: [
-    "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:jsx-a11y/recommended",
     "plugin:tailwindcss/recommended",
     "plugin:cypress/recommended",
     "next/core-web-vitals",
