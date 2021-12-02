@@ -1,14 +1,14 @@
 import type { CustomNextPage } from "next";
 import { FluidLayout } from "src/layout";
 
-const Root: CustomNextPage = () => {
+const Index: CustomNextPage = () => {
   const handleClick = () => {
     window.alert("Hello, World!");
   };
 
   return (
     <div>
-      <h2>Root</h2>
+      <h2>Index</h2>
       <button className="p-2" onClick={handleClick}>
         Click me!
       </button>
@@ -16,6 +16,7 @@ const Root: CustomNextPage = () => {
   );
 };
 
-Root.getLayout = FluidLayout;
+Index.getLayout = FluidLayout;
 
-export default Root;
+// eslint-disable-next-line import/no-default-export
+export default Index;

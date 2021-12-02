@@ -1,5 +1,3 @@
-// @ts-check
-
 /**
  * @type {import('next').NextConfig}
  **/
@@ -9,9 +7,10 @@ const nextConfig = {
   },
   i18n: { locales: ["ja"], defaultLocale: "ja" },
   future: { strictPostcssConfiguration: true },
-  pageExtensions: ["page.tsx", "page.ts"],
+  // pageExtensions: ["page.tsx", "page.ts"],
   reactStrictMode: true,
   poweredByHeader: false,
+  experimental: { concurrentFeatures: true, serverComponents: true },
 };
 
-module.exports = nextConfig;
+export default nextConfig;

@@ -1,6 +1,6 @@
 module.exports = {
   parser: "@typescript-eslint/parser",
-  parserOptions: { project: "./tsconfig.json" },
+  parserOptions: { project: "./tsconfig.json", extraFileExtensions: [".mjs"] },
   settings: { tailwindcss: { groupByResponsive: true } },
   plugins: ["simple-import-sort", "tailwindcss", "import-access", "cypress"],
   extends: [
@@ -63,7 +63,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ["src/pages/**/*.page.tsx", "src/pages/api/**/*.page.ts"],
+      files: ["pages/**/_*.tsx", "pages/**/*.page.tsx", "pages/api/**/*.page.ts", "next.config.mjs"],
       rules: {
         "import/no-default-export": "off",
         "@typescript-eslint/naming-convention": [
