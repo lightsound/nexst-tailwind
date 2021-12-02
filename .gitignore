@@ -35,7 +35,3 @@ yarn-error.log*
 
 # Optional eslint cache
 .eslintcache
-
-# cypress
-cypress/screenshots
-cypress/videos

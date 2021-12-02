@@ -2,11 +2,10 @@ module.exports = {
   parser: "@typescript-eslint/parser",
   parserOptions: { project: "./tsconfig.json", extraFileExtensions: [".mjs"] },
   settings: { tailwindcss: { groupByResponsive: true } },
-  plugins: ["simple-import-sort", "tailwindcss", "import-access", "cypress"],
+  plugins: ["simple-import-sort", "tailwindcss", "import-access"],
   extends: [
     "plugin:@typescript-eslint/recommended",
     "plugin:tailwindcss/recommended",
-    "plugin:cypress/recommended",
     "next/core-web-vitals",
     "prettier",
   ],
