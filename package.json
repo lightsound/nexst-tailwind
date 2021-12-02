@@ -17,6 +17,12 @@
     "env": "vc env pull .env.local",
     "prepare": "husky install"
   },
+  "postcss": {
+    "plugins": {
+      "tailwindcss": {},
+      "autoprefixer": {}
+    }
+  },
   "prettier": {
     "printWidth": 120
   },
