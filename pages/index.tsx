@@ -18,5 +18,4 @@ const Index: CustomNextPage = () => {
 
 Index.getLayout = FluidLayout;
 
-// eslint-disable-next-line import/no-default-export
 export default Index;
