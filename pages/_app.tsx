@@ -1,4 +1,4 @@
-import "tailwindcss/tailwind.css";
+import "../src/style/index.css";
 
 import type { CustomAppProps } from "next/app";
 import Head from "next/head";
