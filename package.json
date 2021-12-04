@@ -8,11 +8,11 @@
     "start": "next start",
     "lint": "next lint",
     "prettier": "prettier --check .",
+    "unit": "jest",
+    "test": "run-p -l -c --aggregate-output lint prettier unit",
     "fix": "run-s -l -c fix:lint fix:prettier",
     "fix:lint": "next lint --fix",
     "fix:prettier": "prettier --write .",
-    "unit": "jest",
-    "test": "run-p -l -c --aggregate-output lint prettier unit",
     "env": "vc env pull .env.local",
     "prepare": "husky install"
   },
@@ -62,7 +62,7 @@
     "typescript": "4.5.2"
   },
   "lint-staged": {
-    "*.{ts,tsx}": "yarn fix:lint",
-    "*": "yarn fix:prettier"
+    "*.{ts,tsx}": "eslint --fix .",
+    "*": "prettier --write ."
   }
 }
