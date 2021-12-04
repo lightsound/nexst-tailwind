@@ -7,7 +7,7 @@ export const Index: VFC = () => {
 
   return (
     <div>
-      <div>Index</div>
+      <h2>Index</h2>
       <button className="p-2" onClick={handleClick}>
         Click me!
       </button>

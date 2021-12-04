@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders about unchanged 1`] = `
+<h2>
+  About!
+</h2>
+`;
+
+exports[`renders index unchanged 1`] = `
+<div>
+  <h2>
+    Index
+  </h2>
+  <button
+    className="p-2"
+    onClick={[Function]}
+  >
+    Click me!
+  </button>
+</div>
+`;
