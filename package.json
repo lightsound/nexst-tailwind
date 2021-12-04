@@ -6,9 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "serve": "run-s build start",
     "lint": "next lint",
     "prettier": "prettier --check .",
     "unit": "jest",
+    "e2e": "playwright test",
     "test": "run-p -l -c --aggregate-output lint prettier unit",
     "fix": "run-s -l -c fix:lint fix:prettier",
     "fix:lint": "next lint --fix",
@@ -35,6 +37,7 @@
     "react-error-boundary": "3.1.4"
   },
   "devDependencies": {
+    "@playwright/test": "^1.17.1",
     "@testing-library/jest-dom": "5.16.0",
     "@testing-library/react": "12.1.2",
     "@testing-library/user-event": "^13.5.0",

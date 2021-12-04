@@ -63,19 +63,11 @@ module.exports = {
   },
   overrides: [
     {
-      files: ["pages/**/*.tsx", "pages/api/**/*.ts", "next.config.mjs"],
-      rules: {
-        "import/no-default-export": "off",
-        "@typescript-eslint/naming-convention": [
-          "error",
-          { selector: ["typeAlias", "typeParameter"], format: ["PascalCase"] },
-          { selector: ["classProperty", "typeProperty", "method"], format: ["camelCase"] },
-          { selector: "variable", types: ["boolean"], format: ["PascalCase"], prefix: ["is", "has", "should"] },
-        ],
-      },
+      files: ["playwright.config.ts", "pages/**/*.tsx", "pages/api/**/*.ts", "next.config.mjs"],
+      rules: { "import/no-default-export": "off" },
     },
     {
-      files: ["src/type/**/*.d.ts"],
+      files: ["pages/**/*.tsx", "pages/api/**/*.ts", "next.config.mjs", "src/type/**/*.d.ts"],
       rules: {
         "@typescript-eslint/naming-convention": [
           "error",
