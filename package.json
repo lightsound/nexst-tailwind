@@ -6,14 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "run-p -l -c --aggregate-output lint:*",
-    "lint:eslint": "eslint --cache .",
-    "lint:prettier": "prettier --check .",
-    "fix": "run-s -l -c fix:eslint fix:prettier",
-    "fix:eslint": "yarn lint:eslint --fix",
-    "fix:prettier": "yarn lint:prettier --write",
+    "lint": "next lint",
+    "prettier": "prettier --check .",
+    "fix": "run-s -l -c fix:lint fix:prettier",
+    "fix:lint": "next lint --fix",
+    "fix:prettier": "prettier --write .",
     "unit": "jest",
-    "test": "run-p -l -c --aggregate-output lint:* unit",
+    "test": "run-p -l -c --aggregate-output lint prettier unit",
     "env": "vc env pull .env.local",
     "prepare": "husky install"
   },
@@ -30,7 +29,7 @@
     "@tailwindcss/forms": "0.3.4",
     "@tailwindcss/line-clamp": "0.2.2",
     "@tailwindcss/typography": "0.4.1",
-    "next": "12.0.4",
+    "next": "12.0.5",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-error-boundary": "3.1.4"
@@ -46,8 +45,8 @@
     "@typescript-eslint/parser": "5.5.0",
     "autoprefixer": "10.4.0",
     "babel-jest": "27.4.2",
-    "eslint": "7.32.0",
-    "eslint-config-next": "12.0.4",
+    "eslint": "8.3.0",
+    "eslint-config-next": "12.0.5",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-import-access": "1.0.0",
     "eslint-plugin-simple-import-sort": "7.0.0",
@@ -63,7 +62,7 @@
     "typescript": "4.5.2"
   },
   "lint-staged": {
-    "*.{ts,tsx}": "yarn fix:eslint",
+    "*.{ts,tsx}": "yarn fix:lint",
     "*": "yarn fix:prettier"
   }
 }

@@ -17,8 +17,7 @@ module.exports = {
     "func-style": ["error", "expression"],
     "arrow-body-style": ["error", "always"],
     "no-restricted-imports": ["error", { paths: [{ name: "react", importNames: ["default"] }] }],
-    "react/prop-types": "off",
-    "react/react-in-jsx-scope": "off",
+    // react
     "react/display-name": "error",
     "react/jsx-handler-names": [
       "error",
@@ -30,13 +29,13 @@ module.exports = {
       },
     ],
     "react/destructuring-assignment": ["error", "never"],
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn",
+    // import
     "import/newline-after-import": "error",
     "import/no-default-export": "error",
     "import-access/jsdoc": "error",
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
+    // @typescript-eslint
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
@@ -54,6 +53,7 @@ module.exports = {
         filter: { regex: "^_", match: false },
       },
     ],
+    // jsx-a11y
     "jsx-a11y/no-autofocus": "off",
     "jsx-a11y/anchor-is-valid": [
       "error",
