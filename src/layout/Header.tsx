@@ -11,7 +11,7 @@ const items = [
  */
 export const Header: VFC = () => {
   return (
-    <header>
+    <div>
       <h1>Title</h1>
       <nav>
         {items.map(({ href, label }) => {
@@ -22,6 +22,6 @@ export const Header: VFC = () => {
           );
         })}
       </nav>
-    </header>
+    </div>
   );
 };

@@ -9,12 +9,16 @@ import { LayoutErrorBoundary } from "./LayoutErrorBoundary";
  */
 export const FixedLayout: CustomLayout = (page) => {
   return (
-    <div className="grid grid-rows-[auto,1fr,auto] mx-auto max-w-screen-md min-h-screen">
-      <Header />
-      <main className="bg-blue-300">
+    <div className="flex flex-col mx-auto max-w-screen-md min-h-screen">
+      <header>
+        <Header />
+      </header>
+      <main className="flex-1 bg-blue-300">
         <LayoutErrorBoundary>{page}</LayoutErrorBoundary>
       </main>
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 };
