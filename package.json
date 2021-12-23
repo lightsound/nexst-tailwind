@@ -43,7 +43,7 @@
     "@testing-library/user-event": "13.5.0",
     "@types/jest": "27.0.3",
     "@types/node": "17.0.0",
-    "@types/react": "17.0.37",
+    "@types/react": "17.0.38",
     "@types/react-test-renderer": "17.0.1",
     "@typescript-eslint/eslint-plugin": "5.8.0",
     "@typescript-eslint/parser": "5.8.0",
