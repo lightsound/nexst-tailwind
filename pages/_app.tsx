@@ -1,22 +1,18 @@
 import "../src/style/index.css";
 
-import type { CustomAppProps } from "next/app";
+import type { CustomAppPage } from "next/app";
 import Head from "next/head";
 import { memo } from "react";
 
-const App = (props: CustomAppProps) => {
-  const getLayout =
-    props.Component.getLayout ||
-    ((page) => {
-      return page;
-    });
+const App: CustomAppPage = ({ Component, pageProps }) => {
+  const getLayout = Component.getLayout || ((page) => page);
 
   return (
     <>
       <Head>
         <title>nexst</title>
       </Head>
-      {getLayout(<props.Component {...props.pageProps} />)}
+      {getLayout(<Component {...pageProps} />)}
     </>
   );
 };
