@@ -47,7 +47,7 @@
     "@types/react-test-renderer": "17.0.1",
     "@typescript-eslint/eslint-plugin": "5.9.0",
     "@typescript-eslint/parser": "5.9.0",
-    "autoprefixer": "10.4.1",
+    "autoprefixer": "10.4.2",
     "eslint": "8.6.0",
     "eslint-config-next": "12.0.7",
     "eslint-config-prettier": "8.3.0",
