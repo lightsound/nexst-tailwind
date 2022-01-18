@@ -55,7 +55,9 @@ export const Button = forwardRef<Element, ButtonProps<Tag>>((props, ref) => {
           ...otherProps,
           role: "button",
           target: isExternalLink(linkProps.href) ? "_blank" : undefined,
-          rel: isExternalLink(linkProps.href) ? "noopener noreferrer" : undefined,
+          rel: isExternalLink(linkProps.href)
+            ? "noopener noreferrer"
+            : undefined,
         })}
       </Link>
     );

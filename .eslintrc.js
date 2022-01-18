@@ -3,7 +3,13 @@ module.exports = {
   parser: "@typescript-eslint/parser",
   parserOptions: { project: "./tsconfig.json" },
   settings: { tailwindcss: { groupByResponsive: true } },
-  plugins: ["simple-import-sort", "sort-destructure-keys", "tailwindcss", "import-access", "testing-library"],
+  plugins: [
+    "simple-import-sort",
+    "sort-destructure-keys",
+    "tailwindcss",
+    "import-access",
+    "testing-library",
+  ],
   extends: [
     "plugin:@typescript-eslint/recommended",
     "plugin:tailwindcss/recommended",
@@ -13,12 +19,22 @@ module.exports = {
   rules: {
     curly: "error",
     "no-console": ["error", { allow: ["warn", "info", "error"] }],
-    "no-restricted-syntax": ["error", { selector: "TSEnumDeclaration", message: "Don't declare enums" }],
+    "no-restricted-syntax": [
+      "error",
+      { selector: "TSEnumDeclaration", message: "Don't declare enums" },
+    ],
     "prefer-arrow-callback": "error",
     "prefer-const": "error",
     "func-style": ["error", "expression"],
-    "arrow-body-style": ["error", "as-needed", { requireReturnForObjectLiteral: true }],
-    "no-restricted-imports": ["error", { paths: [{ name: "react", importNames: ["default"] }] }],
+    "arrow-body-style": [
+      "error",
+      "as-needed",
+      { requireReturnForObjectLiteral: true },
+    ],
+    "no-restricted-imports": [
+      "error",
+      { paths: [{ name: "react", importNames: ["default"] }] },
+    ],
     // react
     "react/display-name": "error",
     "react/jsx-handler-names": [
@@ -42,8 +58,14 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
-    "@typescript-eslint/consistent-type-imports": ["warn", { prefer: "type-imports" }],
-    "@typescript-eslint/no-unused-vars": ["error", { varsIgnorePattern: "^_", argsIgnorePattern: "^_" }],
+    "@typescript-eslint/consistent-type-imports": [
+      "warn",
+      { prefer: "type-imports" },
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { varsIgnorePattern: "^_", argsIgnorePattern: "^_" },
+    ],
     "@typescript-eslint/naming-convention": [
       "error",
       { selector: ["typeAlias", "typeParameter"], format: ["PascalCase"] },
@@ -60,22 +82,41 @@ module.exports = {
     "jsx-a11y/no-autofocus": "off",
     "jsx-a11y/anchor-is-valid": [
       "error",
-      { components: ["Link"], specialLink: ["hrefLeft", "hrefRight"], aspects: ["invalidHref", "preferButton"] },
+      {
+        components: ["Link"],
+        specialLink: ["hrefLeft", "hrefRight"],
+        aspects: ["invalidHref", "preferButton"],
+      },
     ],
   },
   overrides: [
     {
-      files: ["playwright.config.ts", "pages/**/*.tsx", "pages/api/**/*.ts", "next.config.mjs"],
+      files: [
+        "playwright.config.ts",
+        "pages/**/*.tsx",
+        "pages/api/**/*.ts",
+        "next.config.mjs",
+      ],
       rules: { "import/no-default-export": "off" },
     },
     {
-      files: ["pages/**/*.tsx", "pages/api/**/*.ts", "next.config.mjs", "src/type/**/*.d.ts"],
+      files: [
+        "pages/**/*.tsx",
+        "pages/api/**/*.ts",
+        "next.config.mjs",
+        "src/type/**/*.d.ts",
+      ],
       rules: {
         "@typescript-eslint/naming-convention": [
           "error",
           { selector: ["typeAlias", "typeParameter"], format: ["PascalCase"] },
           { selector: ["classProperty", "method"], format: ["camelCase"] },
-          { selector: "variable", types: ["boolean"], format: ["PascalCase"], prefix: ["is", "has", "should"] },
+          {
+            selector: "variable",
+            types: ["boolean"],
+            format: ["PascalCase"],
+            prefix: ["is", "has", "should"],
+          },
         ],
       },
     },
