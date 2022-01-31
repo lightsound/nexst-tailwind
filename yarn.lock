@@ -2241,10 +2241,10 @@ eslint-plugin-sort-destructure-keys@1.4.0:
   dependencies:
     natural-compare-lite "^1.4.0"
 
-eslint-plugin-tailwindcss@3.3.7:
-  version "3.3.7"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-tailwindcss/-/eslint-plugin-tailwindcss-3.3.7.tgz#51e6309408cd2718ff21d728a99af260e4d4a3c5"
-  integrity sha512-l/o/1XLYRlT5CSYyPLBppYYZtYsBpPvK/ESO2oIrwzaBxNlcVIy6DmkgJ8VtwYlU9ioBxIdDKsLEvvYqWlMGzw==
+eslint-plugin-tailwindcss@3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-tailwindcss/-/eslint-plugin-tailwindcss-3.4.0.tgz#78686d78fd8d23c6a213dae84e074a82b18b8e72"
+  integrity sha512-CMU25GsmUMuW+DptkscbN/Rd0zRSdenVuxRRasgcNgaXgh2DFtvOC2thfEobY0P7XhGg6ahvokvVQwzpLBtcrQ==
   dependencies:
     fast-glob "^3.2.5"
     postcss "^8.4.4"
