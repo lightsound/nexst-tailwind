@@ -1241,7 +1241,7 @@
     semver "^7.3.5"
     tsutils "^3.21.0"
 
-"@typescript-eslint/utils@5.12.1", "@typescript-eslint/utils@^5.10.2":
+"@typescript-eslint/utils@5.12.1":
   version "5.12.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-5.12.1.tgz#447c24a05d9c33f9c6c64cb48f251f2371eef920"
   integrity sha512-Qq9FIuU0EVEsi8fS6pG+uurbhNTtoYr4fq8tKjBupsK5Bgbk2I32UGm0Sh+WOyjOPgo/5URbxxSNV6HYsxV4MQ==
@@ -1253,7 +1253,7 @@
     eslint-scope "^5.1.1"
     eslint-utils "^3.0.0"
 
-"@typescript-eslint/utils@5.13.0":
+"@typescript-eslint/utils@5.13.0", "@typescript-eslint/utils@^5.13.0":
   version "5.13.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-5.13.0.tgz#2328feca700eb02837298339a2e49c46b41bd0af"
   integrity sha512-+9oHlPWYNl6AwwoEt5TQryEHwiKRVjz7Vk6kaBeD3/kwHE5YqTGHtm/JZY8Bo9ITOeKutFaXnBlMgSATMJALUQ==
@@ -2299,12 +2299,12 @@ eslint-plugin-tailwindcss@3.5.0:
     postcss "^8.4.4"
     tailwindcss "^3.0.7"
 
-eslint-plugin-testing-library@5.0.5:
-  version "5.0.5"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-5.0.5.tgz#5757961ec20a6ca8b0992d2c5487db1b51612d8d"
-  integrity sha512-0j355vJpJCE/2g+aayIgJRUB6jBVqpD5ztMLGcadR1PgrgGPnPxN1HJuOAsAAwiMo27GwRnpJB8KOQzyNuNZrw==
+eslint-plugin-testing-library@5.0.6:
+  version "5.0.6"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-5.0.6.tgz#86b0aff2ed0c80f63966c2a4894c06bff382b6d5"
+  integrity sha512-mMU4+slZsWKHNxtxc5TE2+bs9S//e2uFPlcpTapPhVdnctgn0+G/DaUu6VbT0JLiVMcbBjy3IcfddK+abZawbw==
   dependencies:
-    "@typescript-eslint/utils" "^5.10.2"
+    "@typescript-eslint/utils" "^5.13.0"
 
 eslint-scope@^5.1.1:
   version "5.1.1"
