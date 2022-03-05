@@ -26,11 +26,7 @@ module.exports = {
     "prefer-arrow-callback": "error",
     "prefer-const": "error",
     "func-style": ["error", "expression"],
-    "arrow-body-style": [
-      "error",
-      "as-needed",
-      { requireReturnForObjectLiteral: true },
-    ],
+    "arrow-body-style": ["error", "always"],
     "no-restricted-imports": [
       "error",
       { paths: [{ name: "react", importNames: ["default"] }] },

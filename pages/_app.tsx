@@ -5,7 +5,11 @@ import Head from "next/head";
 import { memo } from "react";
 
 const App: CustomAppPage = ({ Component, pageProps }) => {
-  const getLayout = Component.getLayout || ((page) => page);
+  const getLayout =
+    Component.getLayout ||
+    ((page) => {
+      return page;
+    });
 
   return (
     <>
