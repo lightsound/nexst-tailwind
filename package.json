@@ -52,7 +52,7 @@
     "eslint-plugin-simple-import-sort": "7.0.0",
     "eslint-plugin-sort-destructure-keys": "1.4.0",
     "eslint-plugin-tailwindcss": "3.5.0",
-    "eslint-plugin-testing-library": "5.1.0",
+    "eslint-plugin-testing-library": "5.2.0",
     "husky": "7.0.4",
     "jest": "27.5.1",
     "lint-staged": "12.3.7",
