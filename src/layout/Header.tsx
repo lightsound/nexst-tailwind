@@ -1,15 +1,16 @@
-import type { VFC } from "react";
+import type { FC } from "react";
 import { NavLink } from "src/component/Button";
+import { pagesPath } from "src/lib/$path";
 
 const items = [
-  { href: "/", label: "Root" },
-  { href: "/about", label: "About" },
+  { href: pagesPath.$url().pathname, label: "Root" },
+  { href: pagesPath.about.$url().pathname, label: "About" },
 ];
 
 /**
  * @package
  */
-export const Header: VFC = () => {
+export const Header: FC = () => {
   return (
     <div>
       <h1>Title</h1>
