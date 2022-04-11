@@ -1,5 +1,5 @@
-import type { VFC } from "react";
+import type { FC } from "react";
 
-export const About: VFC = () => {
+export const About: FC = () => {
   return <h2>About!</h2>;
 };
