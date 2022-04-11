@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "concurrently \"yarn:dev:*\"",
+    "dev": "run-p dev:*",
     "dev:next": "next dev",
     "dev:path": "pathpida --enableStatic --ignorePath .gitignore --output src/lib --watch",
     "build": "pathpida --enableStatic --ignorePath .gitignore --output src/lib && next build",
@@ -47,7 +47,6 @@
     "@typescript-eslint/eslint-plugin": "5.18.0",
     "@typescript-eslint/parser": "5.18.0",
     "autoprefixer": "10.4.4",
-    "concurrently": "^7.1.0",
     "eslint": "8.13.0",
     "eslint-config-next": "12.1.4",
     "eslint-config-prettier": "8.5.0",
