@@ -2,7 +2,6 @@ import "../src/style/index.css";
 
 import type { CustomAppPage } from "next/app";
 import Head from "next/head";
-import { memo } from "react";
 
 const App: CustomAppPage = ({ Component, pageProps }) => {
   const getLayout =
@@ -21,4 +20,4 @@ const App: CustomAppPage = ({ Component, pageProps }) => {
   );
 };
 
-export default memo(App);
+export default App;
