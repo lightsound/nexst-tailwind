@@ -18,7 +18,8 @@
     "fix:lint": "next lint --fix",
     "fix:prettier": "prettier --write .",
     "env": "vc env pull .env.local",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "i18n:sync": "hi18n sync 'pages/**/*.ts' 'pages/**/*.tsx' 'src/**/*.ts' 'src/**/*.tsx'"
   },
   "postcss": {
     "plugins": {
@@ -27,12 +28,16 @@
     }
   },
   "dependencies": {
+    "@hi18n/core": "^0.1.4",
+    "@hi18n/react": "^0.1.2",
+    "@hi18n/react-context": "^0.1.0",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-error-boundary": "3.1.4"
   },
   "devDependencies": {
+    "@hi18n/cli": "^0.1.5",
     "@playwright/test": "1.22.2",
     "@tailwindcss/forms": "0.5.2",
     "@tailwindcss/line-clamp": "0.4.0",
