@@ -11,6 +11,7 @@
   "files.eol": "\n",
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "typescript.tsdk": "node_modules/typescript/lib",
+  "tailwindCSS.classAttributes": ["className", "classNames"],
   "tailwindCSS.experimental.classRegex": [
     ["classNames\\(([^)]*)\\)", "\"([^\"]*)\""]
   ]

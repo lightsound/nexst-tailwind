@@ -9,7 +9,7 @@ import { LayoutErrorBoundary } from "./LayoutErrorBoundary";
  */
 export const FixedLayout: CustomLayout = (page) => {
   return (
-    <div className="flex flex-col mx-auto max-w-screen-md min-h-screen">
+    <div className="mx-auto flex min-h-screen max-w-screen-md flex-col">
       <header>
         <Header />
       </header>
